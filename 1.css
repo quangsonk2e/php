@@ -1,0 +1,117 @@
+.product {
+	background-color: #f9f9f9;
+	padding: 1%;
+	margin-bottom: 20px;
+	float: left;
+	width: 32%;
+	text-align: center;
+}
+
+.product.main {
+	background-color: #fff;
+	outline: 7px solid #87e1af;
+	border: 1px solid #257F50;
+	margin: -2px 6px 0 6px;
+	color: #000;
+}
+
+.product h2, .product h3 {
+	font-size: 22pt;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	color: #808080;
+}
+
+h3 {
+	margin-top: 30px;
+	font-size: 16pt;
+}
+
+.product h3 {
+	font-size: 12pt;
+	color: #87e1af;/*#6c9;*/
+}
+
+.product.main h3 {
+	color: #ff0080;
+}
+
+.product .price {
+	font-size: 22pt;
+	color: #6495ed;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	padding: 12px;
+}
+
+.product .top {
+
+}
+
+.product .info {
+	min-height: 60px;
+}
+
+.product .description {
+	margin: 20px 0;
+	font-style: italic;
+}
+
+.product.main .description {
+	margin: 12px 0;
+	color: #6c9;
+	font-weight: bold;
+}
+
+.product .dotted-separator {
+	background-image: url('/images/icons/dot-with-space.png');
+	height: 5px;
+	margin: 10px 5px;
+}
+
+.left-content {
+	float: left;
+	text-align: right;
+	width: 40%;
+	margin-top: 4px;
+	font-weight: bold;
+}
+
+.right-content {
+	float: right;
+	text-align: left;
+	width: 45%;
+	margin-top: 4px;
+}
+
+
+.price_currency {
+	font-size: 14pt;
+	color: #87e1af;
+}
+
+.price_number {
+	font-size: 24pt;
+	color: #000;
+}
+
+.buy-button, .buy-button:visited {
+	font-size: 18pt;
+	padding: 6px 12px;
+	text-decoration: none;
+	border-radius: 0;
+	margin: 6px 10px;
+	background: none;
+	border: none;
+	color: #000;
+	text-align: center;
+	box-shadow: none;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.buy-button .arrow {
+	color: #87e1af;
+	font-weight: bold;
+	font-size: 160%;	
+}
